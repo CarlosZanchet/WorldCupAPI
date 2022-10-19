@@ -28,59 +28,59 @@ import { Team } from "./Team";
     this._outsideScore = outsideScore
   }
 
-    public get_date(): Date {
+    public get date(): Date {
         return this._date;
     }
 
-    public set_date(_date: Date): void {
+    public setdate(_date: Date) {
         this._date = _date;
     }
 
-    public get_stadium(): string {
+    public get stadium(): string {
         return this._stadium;
     }
 
-    public set_stadium(_stadium: string): void {
+    public setstadium(_stadium: string) {
         this._stadium = _stadium;
     }
 
-    public get_group(): string | null {
+    public get group(): string | null {
         return this._group;
     }
 
-    public set_group(_group: string | null): void {
+    public setgroup(_group: string | null) {
         this._group = _group;
     }
 
-    public get_homeTeam(): Team | null {
+    public get homeTeam(): Team | null {
         return this._homeTeam;
     }
 
-    public set_homeTeam(_homeTeam: Team | null): void {
+    public sethomeTeam(_homeTeam: Team | null) {
         this._homeTeam = _homeTeam;
     }
 
-    public get_outsideTeam(): Team | null {
+    public get outsideTeam(): Team | null {
         return this._outsideTeam;
     }
 
-    public set_outsideTeam(_outsideTeam: Team | null): void {
+    public setoutsideTeam(_outsideTeam: Team | null) {
         this._outsideTeam = _outsideTeam;
     }
 
-    public get_homeScore(): number | null {
+    public get homeScore(): number | null {
         return this._homeScore;
     }
 
-    public set_homeScore(_homeScore: number | null): void {
+    public sethomeScore(_homeScore: number | null) {
         this._homeScore = _homeScore;
     }
 
-    public get_outsideScore(): number | null {
+    public get outsideScore(): number | null {
         return this._outsideScore;
     }
 
-    public set_outsideScore(_outsideScore: number | null): void {
+    public setoutsideScore(_outsideScore: number | null) {
         this._outsideScore = _outsideScore;
     }
 

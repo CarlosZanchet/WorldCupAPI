@@ -7,7 +7,7 @@ export class AllGamesController {
   async handle(request: Request, response: Response) {
     const service = new AllGamesService();
     const games = await service.execute();
-    return response.json(games)
+    return response.status(200).json(games)
   }
 
 }

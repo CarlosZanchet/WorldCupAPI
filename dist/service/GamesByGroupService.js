@@ -9,16 +9,17 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AllGamesController = void 0;
-const AllGamesService_1 = require("../service/AllGamesService");
-class AllGamesController {
-    handle(request, response) {
+exports.GamesByGroupService = void 0;
+const PrimeiraRodada_1 = require("../utils/PrimeiraRodada");
+const SegundaRodada_1 = require("../utils/SegundaRodada");
+const TerceiraRodada_1 = require("../utils/TerceiraRodada");
+class GamesByGroupService {
+    execute(group) {
         return __awaiter(this, void 0, void 0, function* () {
-            const service = new AllGamesService_1.AllGamesService();
-            const games = yield service.execute();
-            return response.status(200).json(games);
+            const games = PrimeiraRodada_1.primeiraRodada.concat(SegundaRodada_1.segundaRodada).concat(TerceiraRodada_1.terceiraRodada);
+            return games.filter(game => game.group === group);
         });
     }
 }
-exports.AllGamesController = AllGamesController;
-//# sourceMappingURL=AllGamesController.js.map
+exports.GamesByGroupService = GamesByGroupService;
+//# sourceMappingURL=GamesByGroupService.js.map

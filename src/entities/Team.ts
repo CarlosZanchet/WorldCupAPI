@@ -4,28 +4,28 @@ export class Team {
   private _name: string;
   private _urlFlag: string;
 
-    public get_id(): string {
-        return this._id;
+    public get id(): string {
+      return this._id;
     }
 
-    public set_id(_id: string): void {
-        this._id = _id;
+    public set id(id: string) {
+      this._id = id;
     }
 
-    public get_name(): string {
+    public get name(): string {
         return this._name;
     }
 
-    public set_name(_name: string): void {
-        this._name = _name;
+    public set name(name: string) {
+        this._name = name;
     }
 
-    public get_urlFlag(): string {
+    public get urlFlag(): string {
         return this._urlFlag;
     }
 
-    public set_urlFlag(_urlFlag: string): void {
-        this._urlFlag = _urlFlag;
+    public set urlFlag(urlFlag: string) {
+        this._urlFlag = urlFlag;
     }
 
 
@@ -33,6 +33,14 @@ export class Team {
     this._id = id
     this._name = name
     this._urlFlag = urlFlag
+  }
+
+  toJson(): any {
+    return {
+      id: this._id,
+      name: this._name,
+      urlFlag: this._urlFlag
+    }
   }
  
 

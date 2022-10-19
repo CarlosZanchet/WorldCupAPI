@@ -9,16 +9,16 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AllGamesController = void 0;
-const AllGamesService_1 = require("../service/AllGamesService");
-class AllGamesController {
+exports.AllTeamController = void 0;
+const AllTeamService_1 = require("../service/AllTeamService");
+class AllTeamController {
     handle(request, response) {
         return __awaiter(this, void 0, void 0, function* () {
-            const service = new AllGamesService_1.AllGamesService();
-            const games = yield service.execute();
-            return response.status(200).json(games);
+            const service = new AllTeamService_1.AllTeamService();
+            const teams = yield service.execute();
+            return response.status(200).json(teams);
         });
     }
 }
-exports.AllGamesController = AllGamesController;
-//# sourceMappingURL=AllGamesController.js.map
+exports.AllTeamController = AllTeamController;
+//# sourceMappingURL=AllTeamController.js.map

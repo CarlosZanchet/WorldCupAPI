@@ -4,7 +4,8 @@ import { selecoes } from "./Selecoes";
 
 
 export function getSelecaoById(selecao: string): Team | null {
-  return null;
+  const s = selecoes.find(s => s.id === selecao);
+  return s ? s : null;
 }
 
 export const primeiraRodada: Game[] = [
@@ -13,7 +14,7 @@ export const primeiraRodada: Game[] = [
     'Al Bayt',
     'A',
     getSelecaoById('CATAR'),
-     getSelecaoById('EQUADOR'),
+    getSelecaoById('EQUADOR'),
     null,
     null,
   ).toJson(),
@@ -22,7 +23,7 @@ export const primeiraRodada: Game[] = [
     'Al Thumama',
     'A',
     getSelecaoById('SENGAL'),
-     getSelecaoById('HOLANDA'),
+    getSelecaoById('HOLANDA'),
     null,
     null,
   ).toJson(),

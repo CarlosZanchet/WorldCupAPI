@@ -7,23 +7,30 @@ class Team {
         this._name = name;
         this._urlFlag = urlFlag;
     }
-    get_id() {
+    get id() {
         return this._id;
     }
-    set_id(_id) {
-        this._id = _id;
+    set id(id) {
+        this._id = id;
     }
-    get_name() {
+    get name() {
         return this._name;
     }
-    set_name(_name) {
-        this._name = _name;
+    set name(name) {
+        this._name = name;
     }
-    get_urlFlag() {
+    get urlFlag() {
         return this._urlFlag;
     }
-    set_urlFlag(_urlFlag) {
-        this._urlFlag = _urlFlag;
+    set urlFlag(urlFlag) {
+        this._urlFlag = urlFlag;
+    }
+    toJson() {
+        return {
+            id: this._id,
+            name: this._name,
+            urlFlag: this._urlFlag
+        };
     }
 }
 exports.Team = Team;

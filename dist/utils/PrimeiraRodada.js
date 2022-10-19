@@ -2,8 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.primeiraRodada = exports.getSelecaoById = void 0;
 const Game_1 = require("../entities/Game");
+const Selecoes_1 = require("./Selecoes");
 function getSelecaoById(selecao) {
-    return null;
+    const s = Selecoes_1.selecoes.find(s => s.id === selecao);
+    return s ? s : null;
 }
 exports.getSelecaoById = getSelecaoById;
 exports.primeiraRodada = [
