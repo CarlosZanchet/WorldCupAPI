@@ -1,8 +1,8 @@
 import { Router, Request, Response } from 'express'
-import { GameController } from './controller/GameController';
+import { AllGamesController } from './controller/AllGamesController';
 
 const routes = Router();
 
-routes.get("/", new GameController().handle)
+routes.get("/all-games", new AllGamesController().handle)
 
 export { routes }
