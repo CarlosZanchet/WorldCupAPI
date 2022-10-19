@@ -4,7 +4,7 @@ import { Team } from "./Team";
 
   private _date: Date;
   private _stadium: string;
-  private _group: string;
+  private _group: string | null;
   private _homeTeam: Team | null;
   private _outsideTeam: Team | null;
   private _homeScore: number | null;
@@ -13,7 +13,7 @@ import { Team } from "./Team";
   constructor(
     date: Date, 
     stadium: string, 
-    group: string, 
+    group: string | null, 
     homeTeam: Team | null, 
     outsideTeam: Team | null, 
     homeScore: number | null , 
@@ -44,11 +44,11 @@ import { Team } from "./Team";
         this._stadium = _stadium;
     }
 
-    public get_group(): string {
+    public get_group(): string | null {
         return this._group;
     }
 
-    public set_group(_group: string): void {
+    public set_group(_group: string | null): void {
         this._group = _group;
     }
 

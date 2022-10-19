@@ -1,46 +1,46 @@
-import { Jogo } from "./PrimeiraRodada";
+import { Game } from "../entities/Game"
 
-export const semiFinais: Jogo[] = [
-  {
-    data: new Date('2022-12-13 16:00:00'),
-    estadio: 'Lusail',
-    grupo: undefined,
-    timeCasa: undefined,
-    timeFora:  undefined,
-    resultadoCasa: undefined,
-    resultadoFora: undefined,
-  },
-  {
-    data: new Date('2022-12-14 16:00:00'),
-    estadio: 'Al Bayt',
-    grupo: undefined,
-    timeCasa: undefined,
-    timeFora:  undefined,
-    resultadoCasa: undefined,
-    resultadoFora: undefined,
-  }
+export const semiFinais: Game[] = [
+  new Game(
+    new Date('2022-12-13 16:00:00'),
+    'Lusail',
+    null,
+    null,
+    null,
+    null,
+    null,
+  ).toJson(),
+  new Game(
+    new Date('2022-12-14 16:00:00'),
+    'Al Bayt',
+    null,
+    null,
+    null,
+    null,
+    null,
+  )
 ]
 
 
-export const disputaTerceiroQuarto: Jogo = 
-  {
-    data: new Date('2022-12-17 12:00:00'),
-    estadio: 'Internacional Khalifa',
-    grupo: undefined,
-    timeCasa: undefined,
-    timeFora:  undefined,
-    resultadoCasa: undefined,
-    resultadoFora: undefined,
-}
+export const disputaTerceiroQuarto: Game = 
+  new Game(
+    new Date('2022-12-17 12:00:00'),
+    'Internacional Khalifa',
+    null,
+    null,
+    null,
+    null,
+    null,
+  )
 
 
-export const final: Jogo = 
-  {
-    data: new Date('2022-12-18 12:00:00'),
-    estadio: 'Lusail',
-    grupo: undefined,
-    timeCasa: undefined,
-    timeFora:  undefined,
-    resultadoCasa: undefined,
-    resultadoFora: undefined,
-}
+export const final: Game = 
+  new Game(
+    new Date('2022-12-18 12:00:00'),
+    'Lusail',
+    null,
+    null,
+    null,
+    null,
+    null,
+)
