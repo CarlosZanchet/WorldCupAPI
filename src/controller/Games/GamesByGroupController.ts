@@ -1,6 +1,6 @@
 import { Response, Request } from "express";
-import { Game } from "../entities/Game";
-import { GamesByGroupService } from "../service/GamesByGroupService";
+import { Game } from "../../entities/Game";
+import { GamesByGroupService } from "../../service/Games/GamesByGroupService";
 
 export class GamesByGroupController {
   async handle(request: Request, response: Response) {

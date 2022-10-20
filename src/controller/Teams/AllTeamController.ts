@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { AllTeamService } from "../service/AllTeamService";
+import { AllTeamService } from "../../service/Teams/AllTeamService";
 
 export class AllTeamController {
   async handle(request: Request, response: Response) {

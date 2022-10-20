@@ -9,6 +9,7 @@ export const oitavasDeFinal: Game[] = [
    null,
     null,
     null,
+    '4'
   ).toJson(),
   new Game(
     new Date('2022-12-03 16:00:00'),
@@ -18,6 +19,7 @@ export const oitavasDeFinal: Game[] = [
    null,
     null,
     null,
+    '4'
   ).toJson(),
   new Game(
     new Date('2022-12-05 12:00:00'),
@@ -27,6 +29,7 @@ export const oitavasDeFinal: Game[] = [
    null,
     null,
     null,
+    '4'
   ).toJson(),
   new Game(
     new Date('2022-12-05 16:00:00'),
@@ -36,6 +39,7 @@ export const oitavasDeFinal: Game[] = [
    null,
     null,
     null,
+    '4'
   ).toJson(),
   new Game(
     new Date('2022-12-04 16:00:00'),
@@ -45,6 +49,7 @@ export const oitavasDeFinal: Game[] = [
    null,
     null,
     null,
+    '4'
   ).toJson(),
   new Game(
     new Date('2022-12-04 12:00:00'),
@@ -54,6 +59,7 @@ export const oitavasDeFinal: Game[] = [
    null,
     null,
     null,
+    '4'
   ).toJson(),
   new Game(
     new Date('2022-12-06 12:00:00'),
@@ -63,6 +69,7 @@ export const oitavasDeFinal: Game[] = [
    null,
     null,
     null,
+    '4'
   ).toJson(),
   new Game(
     new Date('2022-12-06 16:00:00'),
@@ -72,5 +79,6 @@ export const oitavasDeFinal: Game[] = [
    null,
     null,
     null,
+    '4'
   ).toJson(),
 ]

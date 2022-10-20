@@ -17,6 +17,7 @@ export const primeiraRodada: Game[] = [
     getSelecaoById('EQUADOR'),
     null,
     null,
+    '1'
   ).toJson(),
   new Game(
     new Date('2022-11-21 10:00:00'),
@@ -26,6 +27,7 @@ export const primeiraRodada: Game[] = [
     getSelecaoById('HOLANDA'),
     null,
     null,
+    '1'
   ).toJson(),
 
 
@@ -38,6 +40,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('IRA'),
     null,
     null,
+    '1'
   ).toJson(),
   new Game(
     new Date('2022-11-21 16:00:00'),
@@ -47,6 +50,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('PAIS_DE_GALES'),
     null,
     null,
+    '1'
   ).toJson(),
 
 
@@ -58,6 +62,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('ARABIA_SAUDITA'),
     null,
     null,
+    '1'
   ).toJson(),
   new Game(
     new Date('2022-11-22 13:00:00'),
@@ -67,6 +72,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('POLONIA'),
     null,
     null,
+    '1'
   ).toJson(),
 
 
@@ -79,6 +85,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('TUNISIA'),
     null,
     null,
+    '1'
   ).toJson(),
   new Game(
     new Date('2022-11-22 16:00:00'),
@@ -88,6 +95,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('AUSTRALIA'),
     null,
     null,
+    '1'
   ).toJson(),
 
 
@@ -101,6 +109,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('JAPAO'),
     null,
     null,
+    '1'
   ).toJson(),
   new Game(
     new Date('2022-11-23 13:00:00'),
@@ -110,6 +119,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('COSTA_RICA'),
     null,
     null,
+    '1'
   ).toJson(),
 
 
@@ -121,6 +131,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('CROACIA'),
     null,
     null,
+    '1'
   ).toJson(),
   new Game(
     new Date('2022-11-23 16:00:00'),
@@ -130,6 +141,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('CANADA'),
     null,
     null,
+    '1'
   ).toJson(),
 
 
@@ -142,6 +154,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('CAMAROES'),
     null,
     null,
+    '1'
   ).toJson(),
   new Game(
     new Date('2022-11-24 16:00:00'),
@@ -151,6 +164,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('SERVIA'),
     null,
     null,
+    '1'
   ).toJson(),
 
 
@@ -163,6 +177,7 @@ export const primeiraRodada: Game[] = [
       getSelecaoById('CORREIA_DO_SUL'),
      null,
      null,
+     '1'
   ).toJson(),
   new Game(
     new Date('2022-11-24 13:00:00'),
@@ -172,6 +187,7 @@ export const primeiraRodada: Game[] = [
      getSelecaoById('GANA'),
     null,
     null,
+    '1'
   ).toJson()
 
 ]

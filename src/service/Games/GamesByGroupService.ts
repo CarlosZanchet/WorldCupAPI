@@ -1,7 +1,7 @@
-import { Game } from "../entities/Game";
-import { primeiraRodada } from "../utils/PrimeiraRodada";
-import { segundaRodada } from "../utils/SegundaRodada";
-import { terceiraRodada } from "../utils/TerceiraRodada";
+import { Game } from "../../entities/Game";
+import { primeiraRodada } from "../../utils/PrimeiraRodada";
+import { segundaRodada } from "../../utils/SegundaRodada";
+import { terceiraRodada } from "../../utils/TerceiraRodada";
 
 export class GamesByGroupService {
   async execute(group: string): Promise<Game[]> {

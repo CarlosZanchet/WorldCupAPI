@@ -2,6 +2,7 @@ export class Team {
 
   private _id: string;
   private _name: string;
+  private _group: string;
   private _urlFlag: string;
 
     public get id(): string {
@@ -28,10 +29,19 @@ export class Team {
         this._urlFlag = urlFlag;
     }
 
+    public get group(): string {
+      return this._group;
+  }
 
-  constructor(id: string, name: string, urlFlag: string) {
+  public set group(group: string) {
+      this._group = group;
+  }
+
+
+  constructor(id: string, name: string, group: string, urlFlag: string) {
     this._id = id
     this._name = name
+    this._group = group
     this._urlFlag = urlFlag
   }
 
@@ -39,6 +49,7 @@ export class Team {
     return {
       id: this._id,
       name: this._name,
+      group: this._group,
       urlFlag: this._urlFlag
     }
   }

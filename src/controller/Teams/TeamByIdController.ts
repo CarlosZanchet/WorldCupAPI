@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { TeamByIdService } from "../service/TeamByIdService";
+import { TeamByIdService } from "../../service/Teams/TeamByIdService";
 
 export class TeamByIdController {
   async handle(request: Request, response: Response) {

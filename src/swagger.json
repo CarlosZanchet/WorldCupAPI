@@ -1,0 +1,44 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "World Cup 2022 API",
+    "description": "Uma API de jogos e seleções referente a copa do mundo Catar 2022",
+    "contact": {
+      "email": "carloszanchet2@hotmail.com"
+    },
+    "version": "1.0.0"    
+  },
+
+  "server": [
+    {
+      "url": "http://15.228.99.56:3333/",
+      "description": "Api de Produção"
+    }
+  ],
+
+  "paths": {
+    "/games": {
+      "get": {
+        "summary": "Jogos",
+        "in": "header",
+        "description": "Responsavel por retornar todas as partidas de todas as fazer da copa do mundo.",
+        "tags": ["Game"],
+        "response": {
+          "200": {
+            "description": "Success"
+          },
+          "204": {
+            "description": "Games not found"
+          }
+        }
+      }
+    },
+    "/games-group/:group": {
+      "get": {
+        "summary": "Jogos por Grupo",
+        "description": "Responsavel por retornaros jogos conforme o grupo passado por parâmetro, os grupos são  A | B | C | D | E | F | G | H ",
+        "tags": ["Game"]
+      }
+    }
+  }
+}

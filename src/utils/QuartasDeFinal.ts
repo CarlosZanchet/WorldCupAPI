@@ -9,6 +9,7 @@ export const quartasDeFinal: Game[] = [
     null,
     null,
     null,
+    '5'
   ).toJson(),
   new Game(
     new Date('2022-12-09 12:00:00'),
@@ -18,6 +19,7 @@ export const quartasDeFinal: Game[] = [
     null,
     null,
     null,
+    '5'
   ).toJson(),
   new Game(
     new Date('2022-12-10 16:00:00'),
@@ -27,6 +29,7 @@ export const quartasDeFinal: Game[] = [
     null,
     null,
     null,
+    '5'
   ).toJson(),
   new Game(
     new Date('2022-12-10 12:00:00'),
@@ -36,5 +39,6 @@ export const quartasDeFinal: Game[] = [
     null,
     null,
     null,
+    '5'
   ).toJson(),
 ]

@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { Game } from "../entities/Game";
-import { AllGamesService } from "../service/AllGamesService";
+import { Game } from "../../entities/Game";
+import { AllGamesService } from "../../service/Games/AllGamesService";
 
 export class AllGamesController {
 

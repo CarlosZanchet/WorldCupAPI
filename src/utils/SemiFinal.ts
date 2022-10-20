@@ -9,6 +9,7 @@ export const semiFinais: Game[] = [
     null,
     null,
     null,
+    '6'
   ).toJson(),
   new Game(
     new Date('2022-12-14 16:00:00'),
@@ -18,6 +19,7 @@ export const semiFinais: Game[] = [
     null,
     null,
     null,
+    '6'
   )
 ]
 
@@ -31,6 +33,7 @@ export const disputaTerceiroQuarto: Game =
     null,
     null,
     null,
+    '7'
   )
 
 
@@ -43,4 +46,5 @@ export const final: Game =
     null,
     null,
     null,
+    '8'
 )

@@ -1,4 +1,4 @@
-import { selecoes } from "../utils/Selecoes";
+import { selecoes } from "../../utils/Selecoes";
 
 export class TeamByIdService {
   async execute(idTeam: string) {

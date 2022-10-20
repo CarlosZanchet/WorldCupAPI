@@ -10,6 +10,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('SENEGAL'),
     null,
     null,
+    '2'
   ).toJson(),
   new Game(
     new Date('2022-11-25 13:00:00'),
@@ -19,6 +20,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('EQUADOR'),
     null,
     null,
+    '2'
   ).toJson(),
 
 
@@ -31,6 +33,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('IRA'),
     null,
     null,
+    '2'
   ).toJson(),
   new Game(
     new Date('2022-11-25 16:00:00'),
@@ -40,6 +43,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('ESTADOS_UNIDOS'),
     null,
     null,
+    '2'
   ).toJson(),
 
 
@@ -51,6 +55,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('ARABIA_SAUDITA'),
     null,
     null,
+    '2'
   ).toJson(),
   new Game(
     new Date('2022-11-26 16:00:00'),
@@ -60,6 +65,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('MEXICO'),
     null,
     null,
+    '2'
   ).toJson(),
 
 
@@ -72,6 +78,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('AUSTRALIA'),
     null,
     null,
+    '2'
   ).toJson(),
   new Game(
     new Date('2022-11-26 13:00:00'),
@@ -81,6 +88,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('DINAMARCA'),
     null,
     null,
+    '2'
   ).toJson(),
 
 
@@ -94,6 +102,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('COSTA_RICA'),
     null,
     null,
+    '2'
   ).toJson(),
   new Game(
     new Date('2022-11-27 16:00:00'),
@@ -103,6 +112,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('ALEMANHA'),
     null,
     null,
+    '2'
   ).toJson(),
 
 
@@ -114,6 +124,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('MARROCOS'),
     null,
     null,
+    '2'
   ).toJson(),
   new Game(
     new Date('2022-11-27 13:00:00'),
@@ -123,6 +134,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('CANADA'),
     null,
     null,
+    '2'
   ).toJson(),
 
 
@@ -135,6 +147,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('SERVIA'),
     null,
     null,
+    '2'
   ).toJson(),
   new Game(
     new Date('2022-11-28 13:00:00'),
@@ -144,6 +157,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('SUICA'),
     null,
     null,
+    '2'
   ).toJson(),
 
 
@@ -157,6 +171,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('GANA'),
     null,
     null,
+    '2'
   ).toJson(),
   new Game(
     new Date('2022-11-28 16:00:00'),
@@ -166,6 +181,7 @@ export const segundaRodada: Game[] = [
      getSelecaoById('URUGUAI'),
     null,
     null,
+    '2'
   ).toJson(),
 
 ]

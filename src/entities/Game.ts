@@ -9,6 +9,7 @@ import { Team } from "./Team";
   private _outsideTeam: Team | null;
   private _homeScore: number | null;
   private _outsideScore: number | null;
+  private _step: string;
 
   constructor(
     date: Date, 
@@ -17,7 +18,8 @@ import { Team } from "./Team";
     homeTeam: Team | null, 
     outsideTeam: Team | null, 
     homeScore: number | null , 
-    outsideScore: number | null
+    outsideScore: number | null,
+    step: string
 ) {
     this._date = date
     this._stadium = stadium
@@ -26,13 +28,14 @@ import { Team } from "./Team";
     this._outsideTeam = outsideTeam
     this._homeScore = homeScore
     this._outsideScore = outsideScore
+    this._step = step
   }
 
     public get date(): Date {
         return this._date;
     }
 
-    public setdate(_date: Date) {
+    public set date(_date: Date) {
         this._date = _date;
     }
 
@@ -40,7 +43,7 @@ import { Team } from "./Team";
         return this._stadium;
     }
 
-    public setstadium(_stadium: string) {
+    public set stadium(_stadium: string) {
         this._stadium = _stadium;
     }
 
@@ -48,7 +51,7 @@ import { Team } from "./Team";
         return this._group;
     }
 
-    public setgroup(_group: string | null) {
+    public set group(_group: string | null) {
         this._group = _group;
     }
 
@@ -56,7 +59,7 @@ import { Team } from "./Team";
         return this._homeTeam;
     }
 
-    public sethomeTeam(_homeTeam: Team | null) {
+    public set homeTeam(_homeTeam: Team | null) {
         this._homeTeam = _homeTeam;
     }
 
@@ -64,7 +67,7 @@ import { Team } from "./Team";
         return this._outsideTeam;
     }
 
-    public setoutsideTeam(_outsideTeam: Team | null) {
+    public set outsideTeam(_outsideTeam: Team | null) {
         this._outsideTeam = _outsideTeam;
     }
 
@@ -72,7 +75,7 @@ import { Team } from "./Team";
         return this._homeScore;
     }
 
-    public sethomeScore(_homeScore: number | null) {
+    public set homeScore(_homeScore: number | null) {
         this._homeScore = _homeScore;
     }
 
@@ -80,8 +83,16 @@ import { Team } from "./Team";
         return this._outsideScore;
     }
 
-    public setoutsideScore(_outsideScore: number | null) {
+    public set outsideScore(_outsideScore: number | null) {
         this._outsideScore = _outsideScore;
+    }
+
+    public get step(): string {
+      return this._step;
+    }
+
+    public set step(step: string) {
+        this._step = step;
     }
 
     toJson(): any {
@@ -92,7 +103,8 @@ import { Team } from "./Team";
         homeTeam: this._homeTeam, 
         outsideTeam: this._outsideTeam, 
         homeScore: this._homeScore, 
-        outsideScore: this._outsideScore
+        outsideScore: this._outsideScore,
+        step: this._step
       }
     }
 
