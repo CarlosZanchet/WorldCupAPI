@@ -10,6 +10,7 @@ Os dados das fases finais do campeonato, serão alimentados conforme o andar da 
 
 Pretendo adicionar novas informações e dados, e deixarei aqui toda a documentação das mudanças.
 
+Em caso de duvidas, entrem em contato comigo, ficarei feliz em ajudar.
 
 PS: Essa API foi desenvolvida para atender uma demanda minha, caso necessite de mais informações, será de tremenda alegria ajudar implementando.
 
