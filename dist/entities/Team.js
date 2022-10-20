@@ -2,9 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Team = void 0;
 class Team {
-    constructor(id, name, urlFlag) {
+    constructor(id, name, group, urlFlag) {
         this._id = id;
         this._name = name;
+        this._group = group;
         this._urlFlag = urlFlag;
     }
     get id() {
@@ -25,10 +26,17 @@ class Team {
     set urlFlag(urlFlag) {
         this._urlFlag = urlFlag;
     }
+    get group() {
+        return this._group;
+    }
+    set group(group) {
+        this._group = group;
+    }
     toJson() {
         return {
             id: this._id,
             name: this._name,
+            group: this._group,
             urlFlag: this._urlFlag
         };
     }

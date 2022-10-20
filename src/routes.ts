@@ -1,4 +1,4 @@
-import { Router, Request, Response } from 'express'
+import { Router } from 'express'
 import { AllGamesController } from './controller/Games/AllGamesController';
 import { AllTeamController } from './controller/Teams/AllTeamController';
 import { GamesByGroupController } from './controller/Games/GamesByGroupController';
