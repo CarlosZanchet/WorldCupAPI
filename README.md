@@ -39,6 +39,20 @@ Não encontrei nenhuma API que me entregasse o que precisava, então decidi elab
 
 ## Documentação da API
 
+Rotas de acesso a API:
+
+DNS ipv4 público:  `ec2-15-228-99-56.sa-east-1.compute.amazonaws.com`
+####
+ipv4:  `15.228.99.56`
+####
+PORTA: 3333
+
+Exemplo de conexao:
+```http
+  GET http://ec2-15-228-99-56.sa-east-1.compute.amazonaws.com:3333/teams
+```
+
+#
 ### Retorna todos os jogos da competição
 
 ```http
