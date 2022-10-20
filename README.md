@@ -1,5 +1,5 @@
 
-# API World Cup 2022
+# ⚽ API World Cup 2022
 
 Surgiu a necessidade de consumir os dados da copa do mundo Catar 2022 para uma aplicação que estava desenvolvendo.
 
