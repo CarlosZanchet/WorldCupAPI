@@ -5,6 +5,12 @@ Surgiu a necessidade de consumir os dados da copa do mundo Catar 2022 para uma a
 
 Não encontrei nenhuma API que me entregasse o que precisava, então decidi elaborar eu mesmo minha propria API, e agora disponibilizar para uso aberto.
 
+
+Os dados das fases finais do campeonato, serão alimentados conforme o andar da competição.
+
+Pretendo adicionar novas informações e dados, e deixarei aqui toda a documentação das mudanças.
+
+
 PS: Essa API foi desenvolvida para atender uma demanda minha, caso necessite de mais informações, será de tremenda alegria ajudar implementando.
 
 
