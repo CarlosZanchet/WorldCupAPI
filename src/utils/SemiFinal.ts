@@ -20,7 +20,7 @@ export const semiFinais: Game[] = [
     null,
     null,
     '6'
-  )
+  ).toJson()
 ]
 
 
@@ -34,7 +34,7 @@ export const disputaTerceiroQuarto: Game =
     null,
     null,
     '7'
-  )
+  ).toJson()
 
 
 export const final: Game = 
@@ -47,4 +47,4 @@ export const final: Game =
     null,
     null,
     '8'
-)
+).toJson()
